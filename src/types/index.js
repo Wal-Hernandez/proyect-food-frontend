@@ -1,0 +1,8 @@
+export const GET_RECIPES = 'GET_RECIPES';
+export const GET_DIETS = 'GET_DIETS';
+export const GET_RECIPE_DETAIL = 'GET_RECIPE_DETAL';
+export const POST_RECIPE = 'POST_RECIPE';
+export const SET_LOADING = 'SET_LOADING';
+export const PAGINATE_RESULTS = 'PAGINATE_RESULTS';
+
+export const RESET_RESPONSE = 'RESET_RESPONSE'

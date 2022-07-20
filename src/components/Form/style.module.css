@@ -1,0 +1,113 @@
+
+.navFixed{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    top: 0;
+}
+
+
+  .navFixed a{
+	color: #181818;
+  }
+  .navFixed input{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+.background {
+	background-image: url('../../utils/background.jpg');
+    background-repeat: no-repeat;
+   height: 1272px;
+ 
+
+
+}
+
+.component{
+  
+   width: 100%;
+   height: 600px;
+}
+.component *{
+    font-family: 'Oswald-Light', sans-serif;
+    font-weight: bold;
+}
+.submitTitle{
+  font-size: 50px;
+}
+.flexItems{  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    padding-top: 15%;
+    align-items: flex-start;
+    padding-left: 25%;
+}
+.boxTitle{
+    display: flex;
+    flex-direction: row;
+   
+    width: 700px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.boxTitle *{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.selectedDiet{
+   
+    position: absolute;
+    object-fit: cover;
+    height: 800px;
+    width: 180px;
+    right: 11%;
+    top: 39%;
+ 
+    font-size: 20px;
+}
+.boxDesc{
+   
+    margin-bottom: 5%;
+}
+.boxDesc * {
+    font-size:  25px;
+}
+
+.recipeImage{
+    
+    padding-bottom: 5%;
+}
+.recipeText{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+}
+.table{
+
+    background-image: url('../../utils/table.png');
+    background-repeat: no-repeat;
+    background-size:1700px;
+
+    background-position-x:20%;
+    width: 100%;
+    height: 1200px;
+ 
+    
+
+}
+
+textarea{width: 300px;
+    height: 150px;}
+
+option{
+    color : #181818;
+    font-size: 20px;    
+}
+option *{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+}

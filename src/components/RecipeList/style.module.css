@@ -1,0 +1,9 @@
+.component {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.matchMsg{
+  color: #ccc
+}
